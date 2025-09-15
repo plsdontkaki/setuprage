@@ -1,0 +1,44 @@
+@import url(script.js);
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Fira+Mono:wght@400;500;700&display=swap');
+
+body {
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-family: 'Bitcount Grid Single';
+    font-weight: 450;
+    font-size: 3.5rem;
+    margin: 5px;
+}
+
+.space {
+    height: 15vh;
+}
+
+p {
+    color: white;
+    font-family: 'fira mono';
+    font-size: 1.2rem;
+}
+
+.setup {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gep {
+    text-align: start;
+    margin: 20px;  
+}
+
+.periferiak {
+    text-align: end;
+    margin: 20px;  
+}
