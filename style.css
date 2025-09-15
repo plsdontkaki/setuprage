@@ -8,6 +8,7 @@ body {
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    user-select: none;
 }
 
 h1 {
@@ -32,6 +33,20 @@ p {
 .setup {
     display: flex;
     justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 15vw;
+    height: auto;
+}
+
+.gep img {
+    margin-left: 20px;
 }
 
 .gep {
@@ -66,4 +81,38 @@ hr {
     border-style: dashed;
     border-width: 2px;
     padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .setup {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 12vw;
+    }
+
+    .space {
+        height: 2.5vh;
+    }
+
+    img {
+        width: 50vw;
+        height: auto;
+        margin-left: 15%;
+    }
+
+    .gep {
+        width: 80%;
+        
+    }
+
+    .gep img {
+        margin-left: 15%;
+    }
+
+    .periferiak {
+        width: 80%;
+    }
 }
