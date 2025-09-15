@@ -19,13 +19,14 @@ h1 {
 }
 
 .space {
-    height: 15vh;
+    height: 10vh;
 }
 
 p {
     color: white;
     font-family: 'fira mono';
     font-size: 1.2rem;
+    margin: 2px;
 }
 
 .setup {
@@ -34,11 +35,35 @@ p {
 }
 
 .gep {
-    text-align: start;
-    margin: 20px;  
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    border-color: white;
+    border-style: dashed;
+    border-width: 2px;
+    padding: 10px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 80%;
+    color: white;
+    border: 0;
+    border-top: 1px solid;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .periferiak {
-    text-align: end;
-    margin: 20px;  
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    border-color: white;
+    border-style: dashed;
+    border-width: 2px;
+    padding: 10px;
 }
